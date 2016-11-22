@@ -9,7 +9,7 @@ s1 = Student("Alicia", "allu16", 15)
 s2 = Student("Joakim", "joth16", 105)
 sList = [s1, s2, Student("alicia", "allu16", 2)]
 
-t = Teacher("Masse", "haha@hej.com")
+t = Teacher("Hasse", "haha@hej.com")
 
 c = Course("Webbutveckling", "ME1572", 15, t)
 
