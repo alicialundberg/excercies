@@ -43,13 +43,3 @@ def generator():
 
 
 generator()
-
-
-"""
-for x in generator:
-    if generator in number:
-        print("Congratulations!")
-    else:
-        print("Game over.")
-"""
-
