@@ -2,13 +2,13 @@
 class Program():
 
     def __init__(self, name, points, courseList, students, teacherObj=None):
-        self.name = name # string
-        self.points = points # int
-        self.courseList = courseList # list
+        self.name = name
+        self.points = points
+        self.courseList = courseList
 
-        self.__admin = teacherObj # underscore * 2 = privat, går ej att förändra
+        self.__admin = teacherObj
 
-        self.studentList = list() # list
+        self.studentList = list()
         self.studentList = students
 
     def setAdmin(self, teacherObj):
