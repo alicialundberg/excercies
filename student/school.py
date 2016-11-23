@@ -16,4 +16,4 @@ class School():
         self.programList.remove(programList)
 
     def __str__(self):
-        return self.name + " lovated in " + self.city + " have following programs and courses avaiable: \n" + self.programList
+        return self.name + " located in " + self.city + " have following programs and courses avaiable: \n" + self.programList
